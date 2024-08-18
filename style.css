@@ -1210,7 +1210,7 @@ form textarea {
         color: #1392ec; }
 
 .social-links {
-  float: right; }
+  float:none }
   .social-links a {
     width: 30px;
     height: 30px;
@@ -1270,6 +1270,7 @@ form textarea {
       overflow: hidden;
       height: 0; }
     .hero-slider .slides li {
+      background: url(new-images/invest-bg.jpg) no-repeat;
       min-height: 580px;
       float: left;
       margin-right: -100%;
@@ -1350,7 +1351,37 @@ form textarea {
     font-size: 3em;
     color: #0f75bd;
     display: inline-block;
-    margin-bottom: 20px; }
+    }
+  
+.custom-icon-handle {
+  background-image: url('new-images/handle-icon.png');
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+.custom-icon-data {
+  background-image: url('new-images/data-icon.png');
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+.custom-icon-glasses {
+  background-image: url('new-images/glasses-icon.png');
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+.custom-icon-finger {
+  background-image: url('new-images/finger-icon.png');
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
   .feature .feature-title {
     font-size: 20px;
     font-size: 1.25em;
@@ -1724,3 +1755,31 @@ form textarea {
         border-right: none; }
   .site-footer .colophon {
     color: #898b8d; }
+/* Добавляем отступы между элементами формы */
+    .form-group {
+      margin-bottom: 15px;
+  }
+
+  /* Дополнительный отступ для кнопки */
+  .btn {
+      margin-top: 10px;
+  }
+
+  /* Стили для контейнера формы */
+  #subscribe-form {
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Стили для сообщения после подписки */
+  #thank-you-message {
+      padding: 20px;
+      background-color: #dff0d8;
+      border-radius: 5px;
+      text-align: center;
+  }
+  .map-padding {
+    padding-top: 0;
+  }
