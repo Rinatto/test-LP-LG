@@ -36,7 +36,7 @@
 					}  
 				},
 				marker:{
-					address: "40 Sibley St, Detroit",
+					address: "Chau. de Roodebeek 206, 1200 Bruxelles, België",
 					// options: {
 					// 	icon: new google.maps.MarkerImage(
 					// 		"images/map-marker.png",
